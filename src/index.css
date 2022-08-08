@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.image {
+  min-height: 100vh;
+  position: relative;
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-txt {
+  padding: 1rem;
+  background-color: rgba(45, 46, 44, .85); 
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.txt-box {
+  padding: 3rem 3rem;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(0, 0, 0, .95); 
+  color: #fff; 
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+
+
+
