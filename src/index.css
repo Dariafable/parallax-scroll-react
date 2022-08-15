@@ -17,7 +17,7 @@ code {
   position: relative;
 }
 
-.content {
+.image .content {
   width: 100%;
   height: 100vh;
   position: absolute;
@@ -27,7 +27,7 @@ code {
   align-items: center;
 }
 
-.img-txt {
+.content span.img-txt {
   padding: 1rem;
   background-color: rgba(45, 46, 44, .85); 
   color: #fff;
